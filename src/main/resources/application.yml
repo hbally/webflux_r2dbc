@@ -1,0 +1,5 @@
+spring:
+    r2dbc:
+        password: admin
+        url: r2dbcs:mysql://localhost:3306/litemall
+        username: root
