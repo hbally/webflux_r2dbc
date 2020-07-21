@@ -1,5 +1,8 @@
 spring:
     r2dbc:
-        password: admin
+        password: root
         url: r2dbcs:mysql://localhost:3306/litemall
         username: root
+
+server:
+    port: 8081
