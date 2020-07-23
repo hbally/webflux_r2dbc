@@ -3,7 +3,8 @@ FROM java:8
 # 指定挂载点
 #VOLUME /tmp
 # 复制文件到容器
-ADD webflux_r2dbc-0.0.1-SNAPSHOT.jar app.jar
+#ADD webflux_r2dbc-0.0.1-SNAPSHOT.jar app.jar
+ADD *.jar app.jar
 RUN bash -c 'touch /app.jar'
 # 对外暴露的端口
 EXPOSE 8082
